@@ -192,7 +192,7 @@ library(geniusr)
 
 22. At the time of preparing this tutorial, there is a bug in the `geniusr` package (described [here](https://github.com/ewenme/geniusr/issues/17)). Until the bug is fixed in the package itself, you can apply a local patch as a workaround (thanks to [MalcolmMashig](https://github.com/ewenme/geniusr/issues/17#issuecomment-989302741)). Copy the code below and run it in your console to apply the local patch:
 
-```{r}
+```{r, message = FALSE}
 
 # Load libraries for the workaround patch
 library(rvest)
